@@ -1,0 +1,31 @@
+{
+  "name": "firefly-consumer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "./node_modules/.bin/mocha tests/**",
+    "doc": "WIP",
+    "start": "node index.js" 
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thespacefirefly/firefly-consumer.git"
+  },
+  "author": "@k33g_org",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thespacefirefly/firefly-consumer/issues"
+  },
+  "homepage": "https://github.com/thespacefirefly/firefly-consumer#readme",
+    "dependencies": {
+    "node-fetch": "^1.6.3"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
